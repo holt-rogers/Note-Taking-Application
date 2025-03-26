@@ -1,0 +1,4 @@
+show_notes True
+show_shell True
+show_variables True
+show_plot False

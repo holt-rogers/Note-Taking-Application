@@ -1,0 +1,6 @@
+Docking layout: https://github.com/hoffstadt/DearPyGui/discussions/1311
+
+'''
+with dpg.window(label="Temporary Window"):
+    dpg.add_button(label="Save Ini File", callback=lambda: dpg.save_init_file("custom_layout.ini"))
+'''
