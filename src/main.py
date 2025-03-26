@@ -67,7 +67,7 @@ with dpg.window(label = "Notes", tag = notes):
         with dpg.menu(label = "Color"):
             dpg.add_color_picker(label="Color")
 
-# shell (vancy calculator)
+# shell (fancy calculator)
 with dpg.window(label = "Shell", tag = shell, show = preferences["show_shell"]):
     dpg.add_text("Hello, world")
 
